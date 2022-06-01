@@ -48,7 +48,7 @@ public class UsersDAO extends HttpServlet {
             }
             connect = (Connection) DriverManager
   			      .getConnection("jdbc:mysql://127.0.0.1:3306/moderate?"
-  			          + "user=john&password=pass1234");
+  			          + "user=####&password=####");
             System.out.println(connect);
             System.out.println("Connected to moderate users database");
         }
@@ -64,7 +64,7 @@ public class UsersDAO extends HttpServlet {
 		connect_func();
     	statement = connect.createStatement();
 	    statement.executeUpdate(sql1);
-	    System.out.println("Tables and data cleared from adoption database");
+	    System.out.println("Tables and data cleared from database");
 	    statement.executeUpdate(sql2);
 	    System.out.println("Schema created for users table");
       }
