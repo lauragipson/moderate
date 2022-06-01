@@ -1,1 +1,1 @@
-# moderate
+# /ˈmädəˌrāt/
